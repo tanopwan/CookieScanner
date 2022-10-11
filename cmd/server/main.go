@@ -28,17 +28,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CovenantSQL/CookieScanner/cmd"
-	"github.com/CovenantSQL/CookieScanner/parser"
-	"github.com/CovenantSQL/CookieScanner/utils"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/raff/godet"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/semaphore"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
-	gomail "gopkg.in/gomail.v2"
+	"gopkg.in/alecthomas/kingpin.v2"
+	"gopkg.in/gomail.v2"
+
+	"cookie-scanner/cmd"
+	"cookie-scanner/parser"
+	"cookie-scanner/utils"
 )
 
 const (

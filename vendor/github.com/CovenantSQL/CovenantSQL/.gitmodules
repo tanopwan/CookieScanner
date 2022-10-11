@@ -1,3 +1,0 @@
-[submodule "test/GNTE/GNTE"]
-	path = test/GNTE/GNTE
-	url = https://github.com/CovenantSQL/GNTE.git
